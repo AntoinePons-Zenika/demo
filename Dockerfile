@@ -1,6 +1,6 @@
 ARG UBUNTU_VERSION=16.04
 
-FROM ubuntu:${UBUNTU_VERSION} AS build
+FROM ubuntu:16.04 AS build
 
 LABEL maintainer "luka.cehovin@protonmail.com"
 
