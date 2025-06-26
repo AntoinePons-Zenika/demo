@@ -1,6 +1,6 @@
 ARG UBUNTU_VERSION=16.04
 
-FROM ubuntu:16.04 AS build
+FROM ubuntu:24.04 AS build
 
 LABEL maintainer "luka.cehovin@protonmail.com"
 
